@@ -10,4 +10,7 @@ const CAMPAIGN_MARRIED_FEMALE = 3;
 const CAMPAIGN_OTHERS = 4;
 
 function campaignNumber(age, sex, married){
+    if(age >= 30 && married && sex == 1){
+        return 1
+    }
 }
